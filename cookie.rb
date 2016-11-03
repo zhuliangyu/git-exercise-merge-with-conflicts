@@ -11,6 +11,7 @@ class Cookie
 
   def calorie_count
     @sugar * SUGAR_CALORIES + @flour * FLOUR_CALORIES
+    sugar * 3.87 + flour * 3.64
   end
 
 end
